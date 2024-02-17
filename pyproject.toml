@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "classificacao-ia-fatec"
+version = "0.1.0"
+description = "Projeto de classificação para a disciplina de Inteligência Artificial (IA) do curso de ADS da Fatec."
+authors = ["lborgatow <lborgatow@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
