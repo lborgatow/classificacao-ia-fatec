@@ -1,4 +1,4 @@
-# :bookmark: Análise de Dados do Brasileirão :bookmark:
+# :bookmark: Classificação - IA (ADS Fatec) :bookmark:
 
 ## :bulb: Referências e Requerimentos
 
