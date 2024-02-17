@@ -6,8 +6,23 @@ authors = ["lborgatow <lborgatow@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.11"
+ipykernel = "5.5.6"
+openpyxl = "3.1.2"
+pandas = "1.5.3"
+numpy = "1.24.3"
+matplotlib = "3.7.1"
+seaborn = "0.13.1"
+category-encoders = "2.6.3"
+scikit-learn = "1.4.0"
+optuna = "3.5.0"
+tensorflow = "2.11.1"
 
+[tool.poetry.group.optuna.dependencies]
+optuna-integration = "3.5.0"
+
+[tool.poetry.group.tensorflow.dependencies]
+tensorflow-io-gcs-filesystem = "0.31.0"
 
 [build-system]
 requires = ["poetry-core"]
